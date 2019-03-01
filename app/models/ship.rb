@@ -6,4 +6,8 @@ class Ship
     @type = args[:type]
     @booty = args [:booty]
   end
+
+  def self.all 
+    @@all 
+  end
 end
