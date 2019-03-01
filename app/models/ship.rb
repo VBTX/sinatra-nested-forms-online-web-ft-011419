@@ -10,4 +10,8 @@ class Ship
   def self.all
     @@all
   end
+
+  def clear 
+    @@all.clear
+  end
 end
