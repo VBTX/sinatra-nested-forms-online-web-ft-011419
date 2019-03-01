@@ -12,6 +12,6 @@ class Ship
   end
 
   def clear
-    @@all.clear
+    @@all.delete
   end
 end
